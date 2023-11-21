@@ -1,0 +1,121 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    max-width: 85vw;
+    font-family: 'Roboto', sans-serif;
+     
+}
+
+.nav{
+    display: flex;
+    height: 70px;
+}
+
+.nav li{
+    list-style: none;
+    margin: 0 12px;
+}
+
+.right-side{
+    width: 50%;
+}
+
+.left-side{
+    width: 50%;
+}
+
+.First-domain{
+    max-height: 100vh;
+}
+
+.different{
+    color: #ffc163;
+    font-size: 60px;
+}
+
+.button{
+    padding: 8px 13px;
+    border: 2px solid #232742;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #232742;
+    background-color: #ffd799;
+}
+
+
+.image{
+    font-size: 1.3rem;
+}
+
+
+.Second-domain{
+    padding: 70px;;
+}
+
+.Second-domain p{
+    padding: 0 6vw;
+    text-align: center;
+}
+
+.square{
+    padding: 8px 0px;
+    margin:12px 22px;
+    min-width: 20vw;
+    border: 1.5px solid black;
+    text-align: center;
+    border-radius: 25px;
+    background-color: lightgoldenrodyellow;
+}
+
+.square ul{
+    list-style-type: none;
+}
+
+.square ul li{
+    margin: 12px 2px;
+}
+
+.brighter{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Third-domain table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 40px;
+    border-collapse:collapse ;
+}
+
+.Third-domain table th{
+    width: 25vw;
+    border-bottom: 2px solid black;
+    padding: 15px 0;
+}
+
+.Third-domain table td{
+    border-bottom: 2px solid black;
+
+}
+
+
+.Third-domain{
+    padding: 68px;
+}
+  
+footer{
+    padding: 18px;
+    text-align: center;
+}
